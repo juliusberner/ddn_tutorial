@@ -1,0 +1,17 @@
+name: ddn
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.9=h7a1cb2a_0
+  - pytorch=2.0.1=py3.10_cpu_0
+  - pip=22.3.1=pyhd8ed1ab_0
+  - pip:
+    - black[jupyter]==22.10.0
+    - jupyter==1.0.0
+    - matplotlib==3.7.1
+    - scipy==1.10.1
+    - scikit-learn==1.2.2
+    - rise==5.7.1
+    - isort==5.12.0
